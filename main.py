@@ -2,10 +2,10 @@ import ollama
 import subprocess
 
 #getting user input
-if input("\n\nBase model is llama3, do you want to change it? [y/n]: ") == 'y':
+if input("\n\nBase model is llama3.1, do you want to change it? [y/n]: ") == 'y':
     base_model = input("Enter base model: ")
 else:
-    base_model = 'llama3'
+    base_model = 'llama3.1'
 sys_prompt = input('Enter system prompt: ')
 model_name = input('Enter model name: ')
 
